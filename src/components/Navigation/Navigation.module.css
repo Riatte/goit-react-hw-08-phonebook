@@ -1,0 +1,38 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+}
+
+.link.active {
+  color: #e84a5f;
+}
+
+.items {
+  width: 150px;
+  margin-left: 20px;
+  border-radius: 4px;
+  border: solid 2px #7ac7eb;
+
+  &:hover,
+  focus {
+    box-shadow: 0 0 5px blue;
+  }
+}
+
+.items {
+  background-color: #7ac7eb;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
